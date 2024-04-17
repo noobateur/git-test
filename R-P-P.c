@@ -25,29 +25,13 @@ void main(void)
         printf(" Pas mal , égalité");
 
 
-    }else if(bot == 0 && personne == 1 ){
+    }else if(bot == 0 && personne == 1 || bot == 2 && personne == 0 || bot == 1 && personne == 2 ){
 
         printf(" Vous avez gagné"  );
 
-    }else if(bot == 1 && personne == 0 ){
+    }else if(bot == 1 && personne == 0 || bot == 2 && personne == 1 || bot == 0 && personne == 2  ){
 
         printf(" Vous avez perdu"  );
-
-    }else if(bot == 1 && personne == 2 ){
-
-        printf(" Vous avez gagné"  );
-
-    }else if(bot == 2 && personne == 1 ){
-
-        printf(" Vous avez perdu"  );
-
-    }else if(bot == 0 && personne == 2 ){
-
-        printf(" Vous avez perdu"  );
-
-    }else if(bot == 2 && personne == 0 ){
-
-        printf(" Vous avez gagne"  );
 
     }else{
 
